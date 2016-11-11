@@ -3,12 +3,17 @@ html, body{
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'RobotoRegular', sans-serif;
   font-size: 16px;
-  color: #89949C;
+  line-height: 1.6;
   letter-spacing: .01em;
   overflow-x: hidden;
   word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  color: $color-main;
 }
 
 h1,
@@ -17,7 +22,31 @@ h3,
 h4,
 h5,
 h6 {
-  color: #39444C;
+  font-family: "BebasRegular";
+  text-transform: uppercase;
+
+  color: $blue-soft;
+
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 46px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
 }
 
 h1,
@@ -34,14 +63,20 @@ button:focus {
 }
 
 a {
-  color: $red;
+  color: $blue-light;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover,
 a:focus {
-    color: $red;
+    color: $blue-dark;
     text-decoration: none;
     background-color: transparent;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
 }

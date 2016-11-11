@@ -1,0 +1,22 @@
+.section-spacing { padding: 4.5em 0; }
+
+.counter {
+  background: $blue-light;
+  color: #fff;
+  padding: 4.5em 0;
+}
+
+.counter h3 {
+  font-family: 'RobotoLight';
+  color: $white;
+  margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.counter p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.counter div[class^="col-"]:nth-child(1),
+.counter div[class^="col-"]:nth-child(2) { padding-bottom: 1.5em; }
