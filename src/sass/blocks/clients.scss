@@ -1,0 +1,119 @@
+.review {
+  background: url(../img/reviews_bg.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+}
+
+.review .trans-bg{
+  padding: 120px 0;
+  background: rgba(0, 0, 0, 0.70);
+}
+.review .carousel-inner .item{
+  padding: 0 120px;
+}
+.review .carousel-inner > .item > img {
+  width: auto;
+}
+.carousel-control.right, .carousel-control.left {
+  filter:inherit;
+}
+.reviewer-name {
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.reviewer-name:after {
+  content: "";
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 40px;
+  margin-left: -20px;
+}
+.review-comp {
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+.review-img {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 25px 0 30px;
+  box-shadow: 0 0 0px 10px rgba(0, 167, 221, 0.5);
+  -webkit-box-shadow: 0 0 0px 10px rgba(0, 167, 221, 0.5);
+  -moz-box-shadow: 0 0 0px 10px rgba(0, 167, 221, 0.5);
+}
+.review-img:after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: 0 0 0px 10px rgba(0, 167, 221, 0.5);
+  -webkit-box-shadow: 0 0 0px 10px rgba(0, 167, 221, 0.5);
+  -moz-box-shadow: 0 0 0px 10px rgba(0, 167, 221, 0.5);
+  -webkit-transition: all ease-in .2s;
+  -moz-transition: all ease-in .2s;
+  -o-transition: all ease-in .2s;
+  -ms-transition: all ease-in .2s;
+}
+.review-img:hover:after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 2;
+}
+.carousel-inner > .item > img {
+  display: inline-block;
+}
+
+/*----norm-img Version----*/
+.norm-img .review-img {
+  box-shadow: 0 0 0px 20px rgba(32, 60, 69, 0.21);
+  -webkit-box-shadow: 0 0 0px 20px rgba(32, 60, 69, 0.21);
+  -moz-box-shadow: 0 0 0px 20px rgba(32, 60, 69, 0.21);
+}
+.norm-img .review-img:after {
+  box-shadow: 0 0 0px 20px rgba(32, 60, 69, 0.21);
+  -webkit-box-shadow: 0 0 0px 20px rgba(32, 60, 69, 0.21);
+  -moz-box-shadow: 0 0 0px 20px rgba(32, 60, 69, 0.21);
+}
+
+.carousel-control {
+  width: 50px;
+  height: 50px;
+  top: 34%;
+}
+.review p {
+  font-style: italic;
+}
+.review .carousel-control.left, .review .carousel-control.right {
+  background-image: none;
+}
+.review .carousel-control .fa {
+  font-size: 120px;
+  line-height: .6;
+}
+.review .carousel-control {
+  text-shadow:none;
+}

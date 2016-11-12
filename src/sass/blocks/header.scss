@@ -1,0 +1,47 @@
+header {
+  display: none;
+
+  padding: 20px 0;
+
+  background-color: #fff;
+  box-shadow:0 0 9px -5px #000;
+
+  .navbar {
+    margin-bottom: 0;
+
+    border-radius: 0;
+  }
+
+  .navbar-default {
+    background-color: #fff;
+    border-color: transparent;
+
+    .navbar-toggle {
+      margin: 0;
+
+      border: 0;
+      &:hover,
+      &:focus {
+        background: transparent;
+      }
+      .icon-bar {
+        width: 30px;
+        height: 3px;
+
+        background: $blue-light;
+      }
+    }
+  }
+
+  ul > li  {
+    margin-bottom: 0px;
+  }
+
+}
+
+header .navbar-default .navbar-nav > .current > a,
+header .navbar-default .navbar-nav > .current > a:hover,
+header .navbar-default .navbar-nav > .current > a:focus {
+  background-color: $blue-light;
+  color: $white !important;
+}

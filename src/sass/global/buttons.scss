@@ -1,12 +1,20 @@
 .btn {
-  // @include font($ptsans, 14px, 20px, 400);
+  position: relative;
 
-  box-sizing: border-box;
-  cursor: pointer;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: top;
+  padding: 8px 30px;
+
+  font-family: "BebasBold";
+  text-transform: uppercase;
+
+  color: $blue-soft;
+  border: 1px solid $blue-soft;
+  border-radius: 2px;
+  background: transparent;
+
+  transition: all .5s ease;
+  &:after {
+
+  }
 
   &:hover {
 
