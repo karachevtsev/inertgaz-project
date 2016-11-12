@@ -42,6 +42,6 @@ header {
 header .navbar-default .navbar-nav > .current > a,
 header .navbar-default .navbar-nav > .current > a:hover,
 header .navbar-default .navbar-nav > .current > a:focus {
-    background-color: $blue-light;
-    color: $white;
+  background-color: $blue-light;
+  color: $white !important;
 }
