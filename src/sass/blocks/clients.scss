@@ -9,6 +9,10 @@
   h2 {
     margin-bottom: 50px;
   }
+
+  p {
+    margin-bottom: 20px;
+  }
 }
 
 .review .trans-bg{
@@ -26,7 +30,6 @@
 }
 .reviewer-name {
   position: relative;
-  font-family: 'Dosis', sans-serif;
   font-size: 24px;
   font-weight: 700;
   text-transform: capitalize;
@@ -45,7 +48,6 @@
   margin-left: -20px;
 }
 .review-comp {
-  font-family: 'Dosis', sans-serif;
   font-size: 20px;
 }
 .review-img {

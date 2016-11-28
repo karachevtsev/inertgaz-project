@@ -38,6 +38,46 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+  .phone {
+    font-size: 30px;
+
+    &-white {
+      color: $white;
+    }
+
+    &-earphone {
+      margin-right: 5px;
+
+      font-size: 30px;
+    }
+  }
+
+  .banner-title {
+    margin-bottom: 10px;
+
+    font-size: 70px;
+  }
+
+  .banner-text {
+    margin-bottom: 25px;
+
+    font-size: 30px;
+  }
+
+  .review .carousel-inner .item {
+    padding: 0 50px;
+  }
+
+  .review .carousel-control .fa {
+    font-size: 70px;
+  }
+
+  .reviewer-name {
+    font-size: 18px;
+  }
+  .review-comp {
+    font-size: 14px;
+  }
 
 }
 

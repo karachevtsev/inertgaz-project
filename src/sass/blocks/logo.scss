@@ -1,4 +1,15 @@
 .logo {
-  margin: 0;
-  font-size: 0;
+
+    padding: 12px 15px;
+
+    font-family: "BebasRegular";
+    font-size: 30px;
+    text-transform: uppercase;
+
+    color: $blue-light;
+    border-radius: 2px;
+    &:hover {
+      color: $blue-dark;
+    }
+
 }
