@@ -163,50 +163,50 @@ $('#banner-carousel').carousel({
 
   // --------------Contact Form Ajax request-----------------------
 
-  //   $('.form-horizontal').on('submit', function(event){
-  //   event.preventDefault();
+    $('.form-horizontal').on('submit', function(event){
+    event.preventDefault();
 
-  //   $this = $(this);
+    $this = $(this);
 
-  //   var data = {
-  //     first_name: $('#first_name').val(),
-  //     last_name: $('#last_name').val(),
-  //     email: $('#email').val(),
-  //     subject: $('#subject').val(),
-  //     message: $('#message').val()
-  //   };
+    var data = {
+      first_name: $('#first_name').val(),
+      last_name: $('#last_name').val(),
+      email: $('#email').val(),
+      subject: $('#subject').val(),
+      message: $('#message').val()
+    };
 
-  //   $.ajax({
-  //     type: "POST",
-  //     url: "email.php",
-  //     data: data,
-  //     success: function(msg){
-  //      $('.contact-success').fadeIn().delay(3000).fadeOut();
-  //     }
-  //   });
-  // });
+    $.ajax({
+      type: "POST",
+      url: "email.php",
+      data: data,
+      success: function(msg){
+       $('.contact-success').fadeIn().delay(3000).fadeOut();
+      }
+    });
+  });
 
       $('.counter').waypoint(function() {
 
         var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
 
         $('.total-number-1').animateNumber({
-            number: 100, //change value here
+            number: 300, //change value here
             numberStep: comma_separator_number_step
         }, 2000);
 
         $('.total-number-2').animateNumber({
-            number: 1000, //change value here
+            number: 10000, //change value here
             numberStep: comma_separator_number_step
         }, 2000);
 
         $('.total-number-3').animateNumber({
-            number: 1200, //change value here
+            number: 850, //change value here
             numberStep: comma_separator_number_step
         }, 2000);
 
         $('.total-number-4').animateNumber({
-            number: 1500, //change value here
+            number: 20, //change value here
             numberStep: comma_separator_number_step
         }, 2000);
 
@@ -216,6 +216,77 @@ $('#banner-carousel').carousel({
         offset: '80%'
 
     });
+
+      $('div.cycle-slider').cycle({
+    fx :    'fade',
+    timeout:  parseInt($('div.cycle-slider').attr('data-timeout'))   || 7000,
+    delay:    parseInt($('div.cycle-slider').attr('data-delay'))   || 2000,
+    speed:    parseInt($('div.cycle-slider').attr('data-speed'))   || 1000,
+    slides:   '.slide',
+    prev:    '#prev',
+    next:    '#next'
+  });
+
+  if(typeof($.magnificPopup) == "undefined") {
+    return false;
+  }
+
+  $.extend(true, $.magnificPopup.defaults, {
+    tClose:     'Close',
+    tLoading:     'Loading...',
+
+    gallery: {
+      tPrev:    'Previous',
+      tNext:    'Next',
+      tCounter:   '%curr% / %total%'
+    },
+
+    image:  {
+      tError:   'Image not loaded!'
+    },
+
+    ajax:   {
+      tError:   'Content not loaded!'
+    }
+  });
+
+  $(".lightbox").each(function() {
+
+    var _t      = $(this),
+      options   = _t.attr('data-plugin-options'),
+      config    = {},
+      defaults  = {
+        type:         'image',
+        fixedContentPos:  false,
+        fixedBgPos:     false,
+        mainClass:      'mfp-no-margins mfp-with-zoom',
+        image: {
+          verticalFit:  true
+        },
+
+        zoom: {
+          enabled:    false,
+          duration:     300
+        },
+
+        gallery: {
+          enabled: false,
+          navigateByImgClick: true,
+          preload:      [0,1],
+          arrowMarkup:    '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+          tPrev:        'Previou',
+          tNext:        'Next',
+          tCounter:       '<span class="mfp-counter">%curr% / %total%</span>'
+        },
+      };
+
+    if(_t.data("plugin-options")) {
+      config = $.extend({}, defaults, options, _t.data("plugin-options"));
+    }
+
+    $(this).magnificPopup(config);
+
+  });
 
 });
 

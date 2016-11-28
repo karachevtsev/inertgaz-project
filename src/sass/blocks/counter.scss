@@ -1,4 +1,6 @@
-.section-spacing { padding: 4.5em 0; }
+.section-spacing {
+  padding: 4.5em 0;
+}
 
 .counter {
   background: $blue-light;
@@ -9,12 +11,12 @@
 .counter h3 {
   font-family: 'RobotoLight';
   color: $white;
-  margin-top: 24px;
-    margin-bottom: 12px;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
 .counter p {
-  margin-bottom: 0;
+  margin-bottom: 35px;
   color: #fff;
 }
 
