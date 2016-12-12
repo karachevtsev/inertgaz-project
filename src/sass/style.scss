@@ -1,23 +1,20 @@
-@import "global/mixin";
-@import "global/variable";
+
+@import "global/base";
 @import "global/fonts";
 @import "global/buttons";
-@import "global/forms";
-@import "global/base";
 @import "blocks/preloader";
+
 @import "blocks/header";
-@import "blocks/banner";
-@import "blocks/about";
-@import "blocks/gallery";
-@import "blocks/product";
-@import "blocks/clients";
-@import "blocks/counter";
-@import "blocks/logo";
 @import "blocks/menu";
+@import "blocks/banner";
+@import "blocks/product";
+@import "blocks/gallery";
 @import "blocks/services";
-@import "blocks/orders";
+@import "blocks/counter";
+@import "blocks/about";
+@import "blocks/description";
+@import "blocks/review";
 @import "blocks/contacts";
 @import "blocks/footer";
 
 @import "media/media";
-

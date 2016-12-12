@@ -10,35 +10,27 @@
   <!-- Title and Meta Tags End -->
 
   <!-- Favicons Start -->
-  <link rel="shortcut icon" href="img/favicon.ico"">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+  <!-- <link rel="shortcut icon" href="img/favicon.ico""> -->
   <!-- Favicons End -->
 
   <!-- CSS Start -->
-  <!-- Bootstrap -->
   <link href="libs/bootstrap.css" rel="stylesheet">
-  <!-- Latest compiled and minified Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-  <!-- Latest compiled and minified Bootstrap CSS -->
-
   <script src="https://use.fontawesome.com/1b49e9e224.js"></script>
 
 
-  <link href="css/style.min.css" rel="stylesheet">
   <!-- Animate.css -->
-  <link href="libs/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="libs/animate.css">
+
   <!-- Owl-carousel style -->
-  <!-- <link rel="stylesheet" href="libs/owl.carousel.css"> -->
-  <!-- <link rel="stylesheet" href="libs/owl.theme.css"> -->
+  <link rel="stylesheet" href="libs/owl.carousel.css">
+  <link rel="stylesheet" href="libs/owl.theme.css">
+
   <!-- magnific style -->
   <link rel="stylesheet" href="libs/magnific-popup.css">
-  <!-- CSS End -->
 
-  <!-- Fonts Start -->
+  <!-- Custom stylesheet-->
+  <link rel="stylesheet" href="css/style.min.css">
 
-  <!-- Fonts End -->
 
   <!-- Scripts Start -->
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -48,293 +40,198 @@
   <![endif]-->
   <!-- Scripts End -->
 </head>
-<body>
-  <!-- Preloader start-->
-    <!-- <div id="faceoff">
-      <div id="preloader"></div>
-      <div class="preloader-section"></div>
-    </div> -->
-    <!-- Preloader end -->
+  <body>
 
-    <!-- Header start -->
+    <!-- Preloader Start -->
+      <div id="faceoff">
+        <div id="preloader"></div>
+        <div class="preloader-section"></div>
+      </div>
+    <!-- Preloader End -->
+
+    <!-- Header Start -->
     <header id="home" class="navbar-fixed-top">
       <nav class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="nav-brand logo" href="#"><strong>ИнертГаз</strong></a>
+                <h1><a class="nav-brand" href="#"><img src="img/logo.svg" width="150" alt="ИнертГаз"></a></h1>
               </div>
             </div>
-            <div class="col-sm-9">
-              <div class="collapse navbar-collapse" id="main-menu">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a class="scrollto" href="#banner">Главная</a></li>
-                  <li><a class="scrollto" href="#about">О компании</a></li>
-                  <li><a class="scrollto" href="#product">Продукция</a></li>
-                  <li><a class="scrollto" href="#services">Услуги</a></li>
-                  <li><a class="scrollto" href="#review">Клиенты</a></li>
-                  <li><a class="scrollto" href="#contact">Контакты</a></li>
+            <div class="col-sm-7">
+              <div class="collapse navbar-collapse navbar-example" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#banner" class="scrollto">Главная</a></li>
+                  <li><a href="#product" class="scrollto">Продукция</a></li>
+                  <li><a href="#services" class="scrollto">Наши услуги</a></li>
+                  <li><a href="#company" class="scrollto">О Компании</a></li>
+                  <li><a href="#review" class="scrollto">Клиенты</a></li>
+                  <li><a href="#contact" class="scrollto">Контакты</a></li>
                 </ul>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="callback pull-right">
+                <div class="callback-list hidden-xs hidden-sm">
+                  <a class="phone-number phone-life" href="tel:+38(093)5132000">+38 (093) 51-32-000</a>
+                  <a class="phone-number phone-kiyvstar" href="tel:+38(097)4868606">+38 (097) 48-68-606</a>
+                  <a class="phone-number phone-vodafone" href="tel:+38(050)4143066">+38 (050) 41-43-066</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </nav>
     </header>
-    <!-- Header end -->
+    <!-- Header End -->
 
-    <!-- Banner start -->
+    <!-- Banner Start -->
     <section id="banner" class="banner-carousel">
       <div class="trans-bg">
         <div id="background-carousel">
-          <div id="banner-carousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="item item-1 active"></div>
-              <div class="item item-2"></div>
-              <div class="item item-3"></div>
+              <div class="item item-no1 active"></div>
+              <div class="item item-no2"></div>
+              <div class="item item-no3"></div>
             </div>
           </div>
         </div>
-
-        <div class="top-line">
-          <div class="container">
-            <div class="row">
-
-              <div class="col-sm-4">
-                <div class="adress">
-                  <strong>Киев</strong>
-                  <a class="adress-link" href="#" data-toggle="modal" data-target=".bs-example-modal-lg">ул. Вербовая  8 Б</a>
-                </div>
-              </div>
-
-
-
-              <!-- <div class="col-md-2 col-sm-3 col-md-offset-4 col-sm-offset-2">
-                <div class="schedule">
-                  <div class="schedule__title">
-                      График работы:
-                  </div>
-                  <p class="schedule__hours">
-                      Пон - Птн: 8:30 – 10:00
-                  </p>
-                  <p class="schedule__hours">
-                      Сб: 9:00 – 16:00
-                  </p>
-                  <p class="schedule__hours">
-                      Вскр: 10:00 – 15:00
-                  </p>
-                </div>
-              </div> -->
-
-               <!-- <div class="col-md-2 col-sm-3 ">
-                <div class="phone">
-                  <div class="phone__title">
-                      Позвонить нам:
-                  </div>
-                  <a class="phone__number" href="tel:+38 (095) 675-64-34">+38 (095) 675-64-34</a>
-                  <a class="phone__number" href="tel:+38(095)5797547">+38 (095) 579-75-47</a>
-                  <a class="phone__number" href="tel:+38(050)6026958">+38 (050) 602-69-58</a>
-                </div>
-              </div> -->
-
-              <div class="col-sm-4 col-sm-offset-4">
-                <div class="phone">
-                  <i class="fa fa-phone phone-earphone" aria-hidden="true"></i>
-                  <strong>+38 (093)</strong><span class="phone-white">  51-32-000</span>
-                </div>
-              </div>
+        <div class="container">
+          <div class="col-sm-12">
+            <div class="lg-logo"></div>
+            <h2 class="banner-title">Реализация инертных газов</h2>
+            <div class="more-block">
+              <a href="#product" class="btn-more scrollto">Продукция</a>
+              <a href="#contact" class="btn-more scrollto">Контакты</a>
             </div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                  <h2 class="banner-title">Инертгаз</h2>
-                  <!-- <h2><a class="lg-logo" href="#"><img src="img/logo.png" alt="Инертгаз"></h2> -->
-                  <p class="banner-text">Продажа гелия по всей территории Украины</p>
-                  <img class="atom-image" src="img/atom.svg" width="120" alt="">
-              </div>
-            </div>
-          </div>
-          <!-- <div class="arrow">
-              <div class="arrow__btn"></div>
-          </div> -->
         </div>
       </div>
     </section>
-    <!-- Banner end -->
+    <!-- Banner End -->
 
-    <!-- About start -->
-    <section id="about" class="about white">
+    <!-- Product Start -->
+    <section id="product" class="product">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 text-center">
+          <div class="col-sm-12">
             <div class="title wow fadeInRight">
-              <h2>О компании</h2>
+              <h2>Наша продукция</h2>
             </div>
+            <span class="sub-head wow fadeInLeft">Компания «ИнертГаз» реализует по доступным ценам гелий в баллонах</span>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 wow pulse">
-            <img class="img-responsive" src="img/company.jpg" alt="Интергаз">
+          <div class="col-md-4 col-md-offset-1 text-center hidden-sm hidden-xs">
+            <img class="wow bounceInUp" src="img/hellium-balon.png" alt="Интергаз">
           </div>
-          <div class="col-sm-6 wow fadeInRight" data-wow-delay=".5s">
-            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, quia aspernatur quae, officia quis minus ullam fugit reprehenderit voluptatum neque. Sapiente quis amet alias a voluptate suscipit quaerat. Quas, illo.</p>
-            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, quia aspernatur quae, officia quis minus ullam fugit reprehenderit voluptatum neque. Sapiente quis amet alias a voluptate suscipit quaerat. Quas, illo.</p>
-            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, quia aspernatur quae, officia quis minus ullam fugit reprehenderit voluptatum neque. Sapiente quis amet alias a voluptate suscipit quaerat. Quas, illo.</p>
-            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, quia aspernatur quae, officia quis minus ullam fugit reprehenderit voluptatum neque. Sapiente quis amet alias a voluptate suscipit quaerat. Quas, illo.</p>
+          <div class="col-md-6 col-sm-12">
+            <ul class="product-list-right">
+              <li>
+                <div class="product-icon wow fadeInRight" data-wow-delay=".3s">
+                  <i class="fa fa-arrows-alt"></i>
+                </div>
+                <div class="product-detail wow fadeInRight" data-wow-delay=".4s">
+                  <h3>Гелий марка Б - 40л, 20л,10л, 5л</h3>
+                  <p>Газообразный технический (99,8%). Долю 0,2% занимают примеси азота, водорода, кислорода и аргона. Наиболее часто используется в индустрии развлечений при заполнении воздушных шаров.</p>
+                </div>
+              </li>
+              <li>
+                <div class="product-icon wow fadeInRight" data-wow-delay=".3s">
+                  <i class="fa fa-cog"></i>
+                </div>
+                <div class="product-detail wow fadeInRight" data-wow-delay=".4s">
+                  <h3>Гелий марка А (99,995%) - 40л, 10л</h3>
+                  <p>Марка А (99,995%). Используется как инертная среда для проведения сварочных работ для трудноплавких металлов. Применяют в дыхательных смесях при погружениях и работах на глубине.</p>
+                </div>
+              </li>
+              <li>
+                <div class="product-icon wow fadeInRight" data-wow-delay=".3s">
+                  <i class="fa fa-mobile"></i>
+                </div>
+                <div class="product-detail wow fadeInRight" data-wow-delay=".4s">
+                  <h3>Гелий особой чистоты (99,999%) - 40л, 10л</h3>
+                  <p>Используетсяпри резке, сварке и плавкеактивных металлов, а так же в дыхательных смесях для глубоководных погружений, в рекламном бизнесе, для наполнения дирижаблей и воздушных шаров.</p>
+                </div>
+              </li>
+              <li>
+                <div class="product-icon wow fadeInRight" data-wow-delay=".3s">
+                  <i class="fa fa-undo"></i>
+                </div>
+                <div class="product-detail wow fadeInRight" data-wow-delay=".4s">
+                  <h3>Гелий 99,9999% - 40л</h3>
+                  <p>Марка 6,0. Широко применяется в лазерных технологиях, хроматографии, то есть там, где критически важно отсутствие любых примесей.</p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-        <!-- Gallery start -->
-        <div class="gallery">
-          <div class="row">
-            <div class="col-md-4 col-sm-4">
-              <div class="gallery__item wow bounceInUp animated" data-wow-delay=".1s" >
-              <a class="lightbox" href="img/company.jpg" data-plugin-options='{"type":"image"}'>
-                <img class="img-responsive fullwidth gallery__image" src="img/company.jpg" width="360" alt=""><!-- thumb -->
-              </a>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-              <div class="gallery__item wow bounceInUp animated" data-wow-delay=".2s" >
-              <a class="lightbox" href="img/company.jpg" data-plugin-options='{"type":"image"}'>
-                <img class="img-responsive fullwidth gallery__image" src="img/company.jpg" width="360" alt=""><!-- thumb -->
-              </a>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-              <div class="gallery__item wow bounceInUp animated" data-wow-delay=".3s" >
-              <a class="lightbox" href="img/company.jpg" data-plugin-options='{"type":"image"}'>
-                <img class="img-responsive fullwidth gallery__image" src="img/company.jpg" width="360" alt=""><!-- thumb -->
-              </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Gallery end -->
       </div>
     </section>
-    <!-- About end -->
+    <!-- Product End -->
 
-
-
-    <!-- Product start -->
-    <section id="product" class="product">
-      <div class="trans-bg">
+    <!-- Hellium Start -->
+    <section class="hellium">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <h2 class="wow swing" data-wow-delay=".1s">Продукция</h2>
+              <div class="title wow fadeInLeft">
+                <h2>Гелий</h2>
+              </div>
+              <span class="sub-head wow fadeInLeft">Гелий обладает второй после водорода распространенностью во Вселенной. Благодаря отличным свойствам гелий технический сегодня используется во многих сферах нашей жизнедеятельности</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-4">
-              <ul class="product-list-left">
-                <li>
-                  <div class="product-detail wow fadeInLeft" data-wow-delay=".4s">
-                    <h4>Криогенная техника</h4>
-                    <p>создание сверхнизких температур и условий для обеспечения работы сверхпроводящих устройств</p>
-                  </div>
-                  <div class="product-icon wow fadeInLeft" data-wow-delay=".3s">
-                    <i class="fa fa-exchange"></i>
-                  </div>
-                </li>
-                <li>
-                  <div class="product-detail wow fadeInLeft" data-wow-delay=".4s">
-                    <h4>Robust demo package</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                  </div>
-                  <div class="product-icon wow fadeInLeft" data-wow-delay=".3s">
-                    <i class="fa fa-star-half-o"></i>
-                  </div>
-                </li>
-                <li>
-                  <div class="product-detail wow fadeInLeft" data-wow-delay=".4s">
-                    <h4>Responsive support</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                  </div>
-                  <div class="product-icon wow fadeInLeft" data-wow-delay=".3s">
-                    <i class="fa fa-arrows-alt"></i>
-                  </div>
-                </li>
-                <li>
-                  <div class="product-detail wow fadeInLeft" data-wow-delay=".4s">
-                    <h4>Tons of API callbacks</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                  </div>
-                  <div class="product-icon wow fadeInLeft" data-wow-delay=".3s">
-                    <i class="fa fa-cog"></i>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-4 text-center">
-              <div class="product-info wow bounceInUp">
-                <span class="support-icon"><i class="fa fa-cogs"></i></span>
-                <h3>Hellium</h3>
-                <h4>He Technical He 4.5, He 5.0, He 5.5, He 6.0</h4>
-                <p>Жидкий и газообразный гелий применяют в газовой хроматографии, криогенной промышленности, в дыхательных смесях при глубоководных погружениях.</p>
+            <div class="col-sm-12">
+              <div class="hullium-detail wow fadeInRight" data-wow-delay=".4s">
+                <h3>Свойства газа</h3>
+                <p>Несмотря на большое распространение за пределами нашей планеты, непосредственно на Земле данный химический элемент встречается не так часто. Наибольшая его концентрация находится в природном газе, откуда, собственно, и добывается технический гелий.</p>
+                <p>В обычных условиях это инертный газ с самой низкой точкой кипения среди всех веществ. Как и большинство технических газов, не имеет цвета, вкуса и запаха. В этом плане он близок по свойствам с аргоном, но отличается от другого газа – ацетилена, который обладает ярким запахом, к тому же еще и взрывоопасен. Кстати, об ацетилене можно прочитать в статье: растворенный ацетилен для резки и сварки металлов.</p>
               </div>
-            </div>
-            <div class="col-sm-4">
-              <ul class="product-list-right">
-                <li>
-                  <div class="product-icon wow fadeInRight" data-wow-delay=".3s">
-                    <i class="fa fa-arrows-alt"></i>
-                  </div>
-                  <div class="product-detail wow fadeInRight" data-wow-delay=".4s">
-                    <h4>Технологические процессы</h4>
-                    <p>Cоздание защитной среды, газовый анализ и поиск утечек</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="product-icon wow fadeInRight" data-wow-delay=".3s">
-                    <i class="fa fa-cog"></i>
-                  </div>
-                  <div class="product-detail wow fadeInRight" data-wow-delay=".4s">
-                    <h4>Tons of API callbacks</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="product-icon wow fadeInRight" data-wow-delay=".3s">
-                    <i class="fa fa-exchange"></i>
-                  </div>
-                  <div class="product-detail wow fadeInRight" data-wow-delay=".4s">
-                    <h4>iOS / Surface / Android</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="product-icon wow fadeInRight" data-wow-delay=".3s">
-                    <i class="fa fa-undo"></i>
-                  </div>
-                  <div class="product-detail wow fadeInRight" data-wow-delay=".4s">
-                    <h4>Auto-sliding</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                  </div>
-                </li>
-              </ul>
+              <div class="hullium-detail wow fadeInRight" data-wow-delay=".4s">
+                <h3>Где применяется гелий технический</h3>
+                <p>Сегодня многие отрасли не могут обойтись без данного газа. Он применяется в магнитных томографах, микроэлектронике, науке, медицине, для охлаждения ядерных реакторов, наполнения воздушных шаров и во многих других сферах. Поскольку в силу своей негорючести гелий абсолютно безопасен, им заполняют воздухоплавающие суда, такие как аэростаты и дирижабли.</p>
+                <p>Благодаря инертным свойствам, He часто применяют в металлургии во время сварки цветных металлов в качестве защитного газа. В этой области его основным «конкурентом» считается аргон, который, как отмечалось выше, имеет похожие свойства. При этом гелий технический обладает более высоким потенциалом ионизации и высокой проводимостью тепла. Поэтому, обеспечивается широкий профиль шва и более высокое тепловложение, чем при аргоне.</p>
+              </div>
+              <div class="hullium-detail wow fadeInRight" data-wow-delay=".4s">
+                <h3>Основные марки</h3>
+                <p>Существует несколько марок технического He, которые отличаются объемной долей данного элемента и областью применения</p>
+                <ul>
+                  <li>Газообразный технический (99,8%). Долю 0,2% занимают примеси азота, водорода, кислорода и аргона. Наиболее часто используется в индустрии развлечений при заполнении воздушных шаров.</li>
+                  <li>Марка Б (99,990%). Содержит небольшое количество примесей водорода, кислорода, аргона, азота и неона. Применяется для заполнения криогенных устройств и систем.</li>
+                  <li>Марка А (99,995%). Используется как инертная среда для проведения сварочных работ для трудноплавких металлов. Применяют в дыхательных смесях при погружениях и работах на глубине.</li>
+                  <li>Марка 4,6 (99,996). Разработана в соответствии с требованиями к чистоте газов производителей лазеров.</li>
+                  <li>Марка 6,0 (99,9999%). Применяется в лазерных технологиях, хроматографии, то есть там, где критически важно отсутствие любых примесей.</li>
+                  <li>Жидкий. Данное вещество в жидком состоянии нашло применение в сфере высоких технологий. Это связано с тем, что при температуре жидкого He сверхпроводники проводят электричество без дополнительного нагрева, создавая мощнейшие магнитные поля. Используется в ядерных магнитно-резонансных исследованиях.</li>
+                </ul>
+              </div>
+              <div class="hullium-detail wow fadeInRight" data-wow-delay=".4s">
+                <h3>Транспортировка и хранение</h3>
+                <p>В основном газ хранится и перевозится в стальных баллонах темно-коасного или коричневого цвета, которые оснащены правой резьбой. Как правило используют гелиевые емкости объемом 5, 20, 10 и 40 литров. При транспортировке баллоны помещаются в специализированные контейнеры. В случае соблюдения основных правил перевозку гелиевых баллонов можно осуществлять любым видом транспорта.</p>
+                <p>Приобрести газообразный гелий по доступной цене и заказать удобную доставку баллонов можно в компании <strong>«ИнертГаз»</strong>, которая отличается высоким качеством предоставляемой продукции.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </section>
-    <!-- Product end -->
+    <!-- Hellium End -->
 
-    <!-- services start -->
-    <section id="services" class="services white">
+    <!-- Services Start -->
+    <section id="services" class="services">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
             <div class="title wow fadeInRight">
               <h2>Наши услуги</h2>
             </div>
+            <span class="sub-head wow fadeInLeft">Компания «ИнертГаз» предоставляет широкий спектр услуг</span>
           </div>
         </div>
         <div class="row">
@@ -354,7 +251,7 @@
           </div>
           <div class="col-sm-4">
             <div class="services-block wow bounceInUp" data-wow-delay=".3s">
-              <i class="fa fa-puzzle-piece"></i>
+              <i class="fa fa-paint-brush"></i>
               <h3>Клиентская поддержка</h3>
               <p>Оформление заказа по вашей заявке с доставкой по всем регионам Украины</p>
             </div>
@@ -375,45 +272,146 @@
               <p>Ремонт и техническое освидетельствование газовых баллонов</p>
             </div>
           </div>
-          <!-- <div class="col-sm-4">
-            <div class="services-block wow bounceInUp" data-wow-delay=".6s">
-              <i class="fa fa-puzzle-piece"></i>
-              <h3>idea making</h3>
-              <p></p>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
-    <!-- services end -->
+    <!-- Services End -->
 
-    <!--counter-->
+    <!-- Сounter Start -->
     <div class="counter text-center">
       <div class="container">
         <div class="row">
-          <div class="slide-bottom col-sm-3 col-xs-6"> <i class="fa fa-users fa-3x"></i>
+          <div class="col-sm-3 col-xs-6"> <i class="fa fa-users fa-3x"></i>
             <h3 class="total-number-1">0</h3>
             <p>Счастливых клиентов</p>
           </div>
-          <div class="slide-bottom col-sm-3 col-xs-6"> <i class="fa fa-money fa-3x"></i>
+          <div class="col-sm-3 col-xs-6"> <i class="fa fa-money fa-3x"></i>
             <h3 class="total-number-2">0</h3>
             <p>Проданых баллонов</p>
           </div>
-          <div class="slide-bottom col-sm-3 col-xs-6"> <i class="fa fa-download fa-3x"></i>
+          <div class="col-sm-3 col-xs-6"> <i class="fa fa-download fa-3x"></i>
             <h3 class="total-number-3">0</h3>
             <p>Доставок по Украине</p>
           </div>
-          <div class="slide-bottom col-sm-3 col-xs-6"> <i class="fa fa-handshake-o fa-3x"></i>
+          <div class="col-sm-3 col-xs-6"> <i class="fa fa-handshake-o fa-3x"></i>
             <h3 class="total-number-4">0</h3>
             <p>Партнеров по Украине</p>
           </div>
-
         </div>
       </div>
     </div>
-    <!--counter end-->
+    <!-- Сounter End -->
 
-    <!-- Review start -->
+    <!-- About Company Start -->
+    <section id="company" class="company">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <div class="title wow fadeInLeft">
+                <h2>Про Компанию</h2>
+              </div>
+              <span class="sub-head wow fadeInLeft">ООО «ИнертГаз» рады приветствовать вас на нашем сайте</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="about-detail wow fadeInRight" data-wow-delay=".4s">
+                <p>ООО «ИнертГаз» работает в сфере услуг реализации инертных газов, а так же ремонтом и освидетельствованием баллонов более 10 лет.</p>
+              </div>
+              <div class="about-detail wow fadeInRight" data-wow-delay=".4s">
+                <p>Компания ООО «ИнертГаз» является официальным представителем украинского производителя инертных газов Криоин Инжиниринг в городе Киев и киевской области. Наша главная задача, чтобы клиент был доволен качеством нашей продукции и сроком выполненной доставки ( и наших услуг). Технические газы, поставляемые нашей компанией, широко применяются на различных предприятиях военно-промышленного комплекса, во множестве сфер промышленности: пищевой, металлообрабатывающей, нефте- и газоперерабатывающей, медицинской, химической и прочих.</p>
+              </div>
+              <div class="about-detail wow fadeInRight" data-wow-delay=".4s">
+                <p>Список реализуемых газов и газовых смесей велик, и для любых промышленных, медицинских, научных целей вы сможете подобрать газ из списка нашей продукции. При заключении договора на долгосрочные поставки, наша организация может предоставить клиентам значительные скидки. За уточнением цен и условий работы рекомендуем обращаться к нашим менеджерам. </p>
+              </div>
+              <div class="about-detail wow fadeInRight" data-wow-delay=".4s">
+                <p>Поставка технических газов от ООО «ИнертГаз» производится с обязательным учетом индивидуальных потребностей и пожеланий конкретного клиента. Это касается, прежде всего, планов клиента по расходованию газа, особенностей снабжаемого газом объекта. Мы гарантируем регулярность и стабильность газоснабжения. В своей работе ООО «ИнертГаз» использует самые разные способы поставки технических газов, которые удобны нашим клиентам. Более подробную информацию о каждом из поставляемых нами газов вы сможете получить, обратившись к странице интересующего вас газа.</p>
+              </div>
+              <div class="about-detail wow fadeInRight" data-wow-delay=".4s">
+                <p>Компании, которые работают с нами, всегда остаются удовлетворенными спектром наших услуг. Мы всегда рады сотрудничеству с Вами!</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery">
+            <div class="row">
+              <div class="col-sm-12">
+                <span class="sub-head wow fadeInLeft">Постоянное обновление и наличие товара на складе</span>
+                <div id="owl-demo" class="owl-carousel">
+                  <div class="item screenshot-block">
+                    <img src="./img/photo-1.jpg" alt="ИнертГаз">
+                    <div class="caption">
+                      <a class="test-popup-link" href="./img/photo-1.jpg"><i class="fa fa-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="item screenshot-block">
+                    <img src="./img/photo-2.jpg" alt="ИнертГаз">
+                    <div class="caption">
+                      <a class="test-popup-link" href="./img/photo-2.jpg"><i class="fa fa-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="item screenshot-block">
+                    <img src="./img/photo-3.jpg" alt="ИнертГаз">
+                    <div class="caption">
+                      <a class="test-popup-link" href="./img/photo-3.jpg"><i class="fa fa-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="item screenshot-block">
+                    <img src="./img/photo-4.jpg" alt="ИнертГаз">
+                    <div class="caption">
+                      <a class="test-popup-link" href="./img/photo-4.jpg"><i class="fa fa-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="item screenshot-block">
+                    <img src="./img/photo-5.jpg" alt="ИнертГаз">
+                    <div class="caption">
+                      <a class="test-popup-link" href="./img/photo-5.jpg"><i class="fa fa-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="item screenshot-block">
+                    <img src="./img/photo-6.jpg" alt="ИнертГаз">
+                    <div class="caption">
+                      <a class="test-popup-link" href="./img/photo-6.jpg"><i class="fa fa-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+    <!-- About Company End -->
+
+    <!-- Why We Description Start -->
+    <section id="description" class="description">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <div class="title wow fadeInRight">
+              <h2>Почему именно мы</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-md-offset-2 hidden-sm hidden-xs wow pulse" data-wow-delay=".5s">
+            <img class="img-responsive" src="img/hellium-balon.png" alt="Why to choose us">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <ul class="description-list">
+              <li class="wow fadeInRight"><span class="description-icon"><i class="fa fa-bomb"></i></span>100% гарантия качества продукции</li>
+              <li class="wow fadeInRight"><span class="description-icon"><i class="fa fa-paw"></i></span>Всегда хорошие и приятные цены</li>
+              <li class="wow fadeInRight"><span class="description-icon"><i class="fa fa-birthday-cake"></i></span>Официальные предствители Криоин Инжиниринг в г.Киев</li>
+              <li class="wow fadeInRight"><span class="description-icon"><i class="fa fa-fire-extinguisher"></i></span>Технические газы украинского производства </li>
+              <li class="wow fadeInRight"><span class="description-icon"><i class="fa fa-magic"></i></span>Различные способы оплаты и доставки заказа</li>
+              <li class="wow fadeInRight"><span class="description-icon"><i class="fa fa-rebel"></i></span>Каждая покупка — это быстро, качественно, надёжно!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why We Description End-->
+
+    <!-- Review Start -->
     <section id="review" class="review">
       <div class="trans-bg">
         <div class="container">
@@ -428,50 +426,41 @@
                 <div class="carousel-inner">
                   <div class="active item">
                     <span class="review-img">
-                       <img src="../img/thumb-1.png" alt="image">
+                       <img src="./img/thumb-1.png" alt="image">
                      </span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <span class="reviewer-name">Марина Ивановна</span>
-                    <span class="review-comp">Директор, Шарики Ltd.</span>
+                    <p>За время нашей совместной работы компания ООО «ИнертГаз» показали себя высокими профессионалами, которые следят за качеством выполняемой работы и учитывают пожелания Заказчика. Компания «Мастер» выполнила работу согласно сроку. Рекомендуем компанию «ИнертГаз» как надежного поставщика гелия.</p>
+                    <span class="reviewer-name">Оксана Шарикова</span>
+                    <span class="review-comp">Директор</span>
                   </div>
                   <div class="item">
                     <span class="review-img">
-                       <img src="../img/thumb-1.png" alt="image">
+                       <img src="./img/thumb-1.png" alt="image">
                      </span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <span class="reviewer-name">Марина Ивановна</span>
-                    <span class="review-comp">Директор, Шарики Ltd.</span>
-                  </div>
-                  <div class="item">
-                    <span class="review-img">
-                       <img src="../img/thumb-1.png" alt="image">
-                     </span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <span class="reviewer-name">Марина Ивановна</span>
-                    <span class="review-comp">Директор, Шарики Ltd.</span>
+                    <p>Наша компания плодотворно сотрудничает с ООО «ИнертГаз» с 2013 года. За время нашего сотрудничества компанией «ИнертГаз» были выполнены поставки различных видов инертных газов . Хотим отметить, что сотрудники этой компании всегда работают оперативно и качественно. Всем советуем работать с ООО «ИнертГаз».</p>
+                    <span class="reviewer-name">Дмитрий Нечипоренко</span>
+                    <span class="review-comp">Руководитель компании «МедицинаФарм»</span>
                   </div>
                 </div>
-                <!-- Carousel nav -->
                 <a class="carousel-control left" href="#myCarousel1" data-slide="prev"><i class="fa fa-angle-left"></i></a>
                 <a class="carousel-control right" href="#myCarousel1" data-slide="next"><i class="fa fa-angle-right"></i></a>
               </div>
             </div>
           </div>
         </div>
-      </div> <!-- /.trans-bg -->
+      </div>
     </section>
-    <!-- Review end -->
+    <!-- Review End -->
 
-    <!-- Contact start -->
-    <section id="contact" class="contact white tab-content">
+    <!-- Сontact start -->
+    <section id="contact" class="contact tab-content">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <!-- Nav tabs -->
             <ul class="nav nav-tabs text-center" role="tablist">
-              <li class="active wow rollIn animated" data-wow-duration="1s"><a href="#contact-info" role="tab" data-toggle="tab"><i class="fa fa-paper-plane"></i>
+              <li class="wow rollIn animated" data-wow-duration="2s"><a href="#contact-form" role="tab" data-toggle="tab"><i class="fa fa-envelope"></i></a></li>
+              <li class="active wow rollIn animated" data-wow-duration="1s"><a href="#contact-info" role="tab" data-toggle="tab"><i class="fa fa-phone"></i>
                 </a></li>
-              <li class=" wow rollIn animated" data-wow-duration="2s"><a href="#contact-form" role="tab" data-toggle="tab"><i class="fa fa-envelope"></i></a></li>
               <li class="wow rollIn animated" data-wow-duration="3s"><a href="#contact-map" class="contact-map" role="tab" data-toggle="tab"><i class="fa fa-map-marker"></i></a></li>
             </ul>
           </div>
@@ -479,52 +468,7 @@
       </div>
        <!-- Tab panes -->
       <div class="tab-content">
-        <div class="tab-pane active contact-info" id="contact-info">
-          <div class="container">
-            <div class="row">
-            <div class="col-sm-12 text-center">
-              <div class="title">
-                <h2>Наши контакты</h2>
-              </div>
-            </div>
-          </div>
-            <div class="row text-center">
-              <div class="col-sm-4">
-                <div class="info-holder">
-                  <i class="fa fa-taxi"></i>
-                   <br>
-                   <p>
-                     Украина <br>
-                     Киев <br>
-                     ул. Вербовая 8Б
-                   </p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="info-holder">
-                  <i class="fa fa-mobile"></i>
-                  <br>
-                  <p>+38 (093) 51-32-000
-                  <br>
-                  +38 (050) 41-43-066
-                  <br>
-                  +38 (097) 48-68-606
-                  </p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="info-holder">
-                  <i class="fa fa-reply"></i>
-                  <br>
-                  <p>
-                    inertgas.ltd@gmail.com
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane  contact-info" id="contact-form">
+        <div class="tab-pane contact-info" id="contact-form">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 text-center">
@@ -554,17 +498,60 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <textarea name="" class="form-control btn-block" rows="3">Сообщение</textarea>
+                      <textarea name="" class="form-control btn-block" placeholder="Сообщение" rows="3"></textarea>
                     </div>
                     <div class="form-group">
-                      <input type="submit" class="btn btn-block" value="отправить сообщение">
+                      <input type="submit" class="btn btn-block" value="Отправить">
                     </div>
                   </div>
                   <div class="col-sm-12">
-                    <p class="contact-success">Ваше сообщение успешно отослано</p>
-                    <p class="contact-error">Упс! Ошибочка вышла!</p>
+          <p class="contact-success">Your Message has been Successfully Sent!</p>
+          <p class="contact-error">Error! Something went wrong!</p>
                   </div>
                 </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane active contact-info" id="contact-info">
+          <div class="container">
+            <div class="row">
+            <div class="col-sm-12 text-center">
+              <div class="title">
+                <h2>Наши контакты</h2>
+              </div>
+            </div>
+          </div>
+            <div class="row text-center">
+              <div class="col-sm-4">
+                <div class="info-holder">
+                  <i class="fa fa-taxi"></i>
+                   <br>
+                   <p>
+                     Украина  <br>
+                     г. Киев  <br>
+                     ул. Вербовая 8Б
+                   </p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="callback">
+                  <div class="callback-list">
+                  <i class="fa fa-mobile"></i>
+                    <a class="phone-number phone-life" href="tel:+38(093)5132000">+38 (093) 51-32-000</a>
+                    <a class="phone-number phone-kiyvstar" href="tel:+38(097)4868606">+38 (097) 48-68-606</a>
+                    <a class="phone-number phone-vodafone" href="tel:+38(050)4143066">+38 (050) 41-43-066</a>
+                  </div>
+              </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="info-holder">
+                  <i class="fa fa-reply"></i>
+                  <br>
+                  <p>
+                    inertgas.ltd@gmail.com
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -574,44 +561,32 @@
             <div class="row">
               <div class="col-sm-12 text-center">
                 <div class="title">
-                  <h2>Как нас найти</h2>
+                  <h2>Как добраться к нам</h2>
                 </div>
               </div>
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.146164601148!2d30.47976185594978!3d50.49423735427041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdf38f6efb29%3A0xa48174d394f3fb1b!2z0KLQntCSICLQmNC90LXRgNGC0JPQsNC3Ig!5e0!3m2!1sru!2sua!4v1480107913240" width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+              </div>
             </div>
-          </div>
-          <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.146164601148!2d30.47976185594978!3d50.49423735427041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdf38f6efb29%3A0xa48174d394f3fb1b!2z0KLQntCSICLQmNC90LXRgNGC0JPQsNC3Ig!5e0!3m2!1sru!2sua!4v1480107913240" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </section>
-    <!-- Contact end -->
+    <!-- Сontact end -->
 
-    <!-- Map Modal -->
-    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.146164601148!2d30.47976185594978!3d50.49423735427041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdf38f6efb29%3A0xa48174d394f3fb1b!2z0KLQntCSICLQmNC90LXRgNGC0JPQsNC3Ig!5e0!3m2!1sru!2sua!4v1480107913240" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-
-
-
-
-        <!-- footer start -->
+    <!-- Footer Start -->
     <footer id="footer">
-      <div class="trans-bg">
+      <div class="footer-trans-bg">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 text-center">
               <div class="social-icon">
                <a href="" class="wow rollIn animated" data-wow-delay=".1s"><i class="fa fa-facebook"></i></a>
-               <a href="" class="wow rollIn animated" data-wow-delay=".2s"><i class="fa fa-twitter"></i></a>
                <a href="" class="wow rollIn animated" data-wow-delay=".3s"><i class="fa fa-google-plus"></i></a>
+               <a href="" class="wow rollIn animated" data-wow-delay=".4s"><i class="fa fa-instagram"></i></a>
+              </div>
               <div class="copyright">
-                <p>&copy; <span>Инертгаз</span>2016</p>
-                <p><span>Разработка by Artem Karachevtsev</span></p>
+                <p>&copy; <span>ИнертГаз</span>2016, все права защищены</p>
               </div>
             </div>
           </div>
@@ -619,41 +594,29 @@
         <div id="go-to-top">
             <a href="#banner"></a>
         </div>
-        <!--/.go-to-top end-->
-      </div> <!-- /.trans-bg -->
+      </div>
     </footer>
-    <!-- footer end -->
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-  <!-- <script src="libs/jquery.min.js"></script> -->
-  <script src="libs/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.js"></script>
-  <!-- <script src="libs/smoothscroll.js"></script>class="scrollto" -->
-  <script src="libs/jquery.scrollTo.min.js"></script>
-  <script src="libs/jquery.localScroll.min.js"></script>
-  <script src="libs/jquery.nav.js"></script>
-  <!-- <script src="libs/owl.carousel.js"></script> -->
-  <!-- <script src="libs/jquery.magnific-popup.js"></script> -->
-  <!-- <script src="libs/jquery.flexslider-min.js"></script> -->
-  <!-- <script src="libs/jquery.parallax.js"></script> -->
-  <!-- <script src="libs/jquery.ajaxchimp.min.js"></script> -->
-  <!-- <script src="libs/matchMedia.js"></script> -->
-
-  <script src="libs/jquery.cycle2.min.js"></script>
-  <script src="libs/jquery.magnific-popup.min.js"></script>
-
-  <script src="libs/jquery.animateNumber.min.js"></script>
-  <script src="libs/waypoints.min.js"></script>
-  <script src="libs/wow.js"></script>
-  <script src="libs/easing.js"></script>
+    <!-- Footer End -->
 
 
 
-  <script src="js/app.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+    <script src="libs/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="libs/smoothscroll.js"></script>
+    <script src="libs/jquery.scrollTo.min.js"></script>
+    <script src="libs/jquery.localScroll.min.js"></script>
+    <script src="libs/jquery.nav.js"></script>
+    <script src="libs/owl.carousel.js"></script>
+    <script src="libs/jquery.magnific-popup.js"></script>
+    <script src="libs/wow.js"></script>
+    <script src="libs/easing.js"></script>
+    <script src="libs/jquery.animateNumber.min.js"></script>
+    <script src="libs/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.js"></script>
+    <script src="js/app.min.js"></script>
 
-
-</body>
+  </body>
 </html>

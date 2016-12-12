@@ -1,202 +1,91 @@
-#banner {
-  font-family: "BebasRegular";
-}
-
 #background-carousel {
   position: absolute;
-  position: fixed;
-
   top: 0px;
   left: 0px;
-
   width: 100%;
-  height: 100vh;
-
-  z-index: -1;
+  height: 100%;
+  z-index:-1;
 
   .carousel,
   .carousel-inner {
     width: 100%;
-    height: 100vh;
-
+    height: 100%;
     z-index: 0;
     overflow: hidden;
-
-    .active.left {
-      left: 0;
-      opacity: 0;
-      z-index: 2;
-    }
   }
 
   .item {
     width: 100%;
     height: 100%;
-
-    transition: opacity 1s;
-
     z-index: 0;
+    transition: opacity 1s;
   }
 
-  .item-1 {
-    background: url(../img/slide-1.jpg) no-repeat;
-  }
-
-  .item-2 {
-    background: url(../img/slide-2.jpg) no-repeat;
-  }
-
-  .item-3 {
-    background: url(../img/slide-3.jpg) no-repeat;
-  }
-
-  .item-1, .item-2, .item-3 {
+  .item-no1 {
+    background: url(../img/slider/slide-1.jpg) no-repeat;
     background-size: cover;
   }
+
+   .item-no2 {
+    background: url(../img/slider/slide-2.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .item-no3 {
+    background: url(../img/slider/slide-3.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .carousel .active.left {
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+  }
+
 }
 
 .banner-title {
-  // padding-top: 60px;
-  margin-bottom: 25px;
-
-  font-size: 80px;
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 55px;
+  letter-spacing: 0.05em;
   text-align: center;
-}
-
-.banner-text {
-  margin-bottom: 25px;
-
-  font-size: 50px;
-  text-align: center;
-
+  font-weight: normal;
   color: #fff;
 }
 
-.trans-bg {
-  background: rgba(0, 0, 0, 0.70);
+.banner-carousel .trans-bg {
+    padding: 0 0px 120px;
 }
 
-.top-line {
-  padding-top: 45px;
-
-  min-height: 97px;
+.lg-logo  {
+  min-height: 350px;
+  background: url("../img/lg-logo.svg") center center no-repeat;
+  background-size: 35%;
 }
 
-.adress {
-  padding-left: 50px;
-
-  line-height: 30px;
-
-  background-image: url("../img/icon__map.svg");
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 35px;
-
-  strong {
-    display: block;
-
-    font-size: 32px;
-    text-transform: uppercase;
-
-    color: $blue-light;
-  }
-
-  &-link {
-    font-size: 21px;
-
-    color: $white;
-    border-bottom: dashed 1px $white;
-
-    transition: all .25s;
-    &:hover,
-    &:active,
-    &:focus {
-      border-bottom: transparent dashed 1px;
-
-      color: $white;
-    }
-
-  }
-}
-
-.phone {
-  font-size: 45px;
-  text-transform: uppercase;
-
-  color: $blue-light;
-
-  &-white {
-    color: $white;
-  }
-
-  &-earphone {
-    margin-right: 5px;
-
-    font-size: 40px;
-  }
-}
-
-.atom-image {
-  display: block;
-  margin: 0 auto;
-}
-
-
-.arrow {
-  z-index: 600;
-  top: 20px;
-  position: relative;
+.more-block {
   text-align: center;
 
-  &__btn {
+  .btn-more {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url("../img/arrow--down.png");
-    cursor: pointer;
-    opacity: .7;
-    -webkit-transition: all .25s ease;
-    transition: all .25s ease;
+    margin-right: 30px;
+    padding: 15px 0;
+    width: 200px;
+    border: 1px solid #0aabe1;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: #0aabe1;
+    transition: all .3s ease-in;
+
+    &:nth-child(2) {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background: #ff7f66;
+      border-color: #ff7f66;
+    }
   }
 }
-
-
-// .schedule {
-//   float: right;
-
-//   color: #fff;
-
-//   &__title {
-//     font-size: 20px;
-
-//     color: $blue-light;
-//   }
-
-//   &__hours {
-//     margin: 0;
-
-//     font-size: 18px;
-//   }
-// }
-
-// .phone {
-//   float: right;
-
-//   &__title {
-//     font-size: 20px;
-
-//     color: $blue-light;
-//   }
-
-//   &__number {
-//     display: block;
-
-//     font-size: 18px;
-
-//     color: #fff;
-//     transition: all .25s;
-//     &:hover {
-//         color: $blue-light;
-//     }
-//   }
-// }
