@@ -1,24 +1,24 @@
-.section-spacing {
-  padding: 4.5em 0;
-}
-
 .counter {
-  background: $blue-light;
+  background: #00a7dd;;
   color: #fff;
-  padding: 4.5em 0;
+  padding: 70px 0;
+
+  // .col-xs-6 {
+  //   padding-right: 12px;
+  //   padding-left: 12px;
+  // }
 }
 
 .counter h3 {
   font-family: 'RobotoLight';
-  color: $white;
+  color: #fff;
   margin-top: 20px;
   margin-bottom: 12px;
 }
 
 .counter p {
-  margin-bottom: 35px;
+  // font-size: 14px;
+  // margin-bottom: 35px;
   color: #fff;
 }
 
-.counter div[class^="col-"]:nth-child(1),
-.counter div[class^="col-"]:nth-child(2) { padding-bottom: 1.5em; }

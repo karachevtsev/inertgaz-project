@@ -1,32 +1,41 @@
-section.contact {
+.contact {
   padding-top: 120px;
-  padding-bottom: 0;
+  .title {
+    padding-top: 30px;
+  }
 }
+
 section.contact > .container {
   margin-top: -180px;
 }
+
 .contact .nav-tabs {
   border-bottom: none;
   position: relative;
   z-index: 1;
 }
+
 .contact .nav-tabs li {
   float: none;
   display: inline-block;
   margin: 0 9% 25px;
 }
+
 .contact .nav-tabs > li > a {
   background: transparent;
   margin: 0;
   position: initial;
 }
+
 .contact .nav-tabs > li > a:hover {
   border-color: transparent transparent transparent;
 }
+
 .contact .nav > li > a:hover, .contact .nav > li > a:focus {
   text-decoration: none;
   background-color: transparent;
 }
+
 .contact .nav-tabs li .fa {
   background: #0aabe1;
   text-align: center;
@@ -40,6 +49,7 @@ section.contact > .container {
   -webkit-box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
      -moz-box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
 }
+
 .contact .nav-tabs > li.active > a,
 .contact .nav-tabs > li.active > a:hover,
 .contact .nav-tabs > li.active > a:focus {
@@ -57,6 +67,7 @@ section.contact > .container {
      -moz-box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
           box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
 }
+
 .contact-success {
   background: transparent;
   border: 1px solid #64AB89;
@@ -77,11 +88,7 @@ section.contact > .container {
   display: none;
 }
 
-/*
-=============================================
-# - 13.1 - Contact-info
---------------------------------------------
-*/
+
 
 .info-holder{
   margin-bottom: 50px;
@@ -92,11 +99,37 @@ section.contact > .container {
   margin-bottom: 50px;
 }
 
-/*
-=============================================
-# - 13.2 - Contact-form
---------------------------------------------
-*/
+.tab-content {
+  .callback {
+    margin-bottom: 50px;
+  }
+  .callback-list {
+    .phone-number {
+      font-size: 20px;
+    }
+
+    .phone-life {
+    &:before {
+      display: none;
+    }
+  }
+
+  .phone-kiyvstar {
+    &:before {
+      display: none;
+    }
+  }
+
+  .phone-vodafone {
+    &:before {
+      display: none;
+    }
+  }
+  }
+
+}
+
+
 
 .span-form {
   float: left;
@@ -134,7 +167,6 @@ section.contact > .container {
 }
 .contact textarea.form-control {
   height: 135px;
-  resize: none;
 }
 .contact .btn {
   padding: 19px 10px;
@@ -142,12 +174,7 @@ section.contact > .container {
 .contact .btn:hover {
   background: #0aabe1;
 }
-#map, .map {
-  height: 400px;
-  width: 100%;
-}
 
 
-#contact .title {
-  margin-bottom: 50px;
-}
+
+

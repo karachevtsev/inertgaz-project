@@ -1,29 +1,94 @@
-#main-menu {
+header h1 {
+  margin: 0;
+  font-size: 0;
+}
+header .nav > li > a {
+  font-family: 'BebasRegular';
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 12px 15px;
+  border-radius: 2px;
+}
 
-  a {
-    padding: 12px 15px;
+header .navbar-default .navbar-nav > li > a {
+  color: #00a7dd;
+}
+header .navbar-default .navbar-nav > li > a:hover {
+  color: #017298;
+}
+header .navbar-default .navbar-nav > .active > a,
+header .navbar-default .navbar-nav > .active > a:hover,
+header .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #00a7dd;
+  color: #fefefe;
+}
+header .navbar-default .navbar-nav > li > a:hover,
+header .navbar-default .navbar-nav > li > a:focus {
+  color: #00a7dd;
+  border:none;
+}
 
-    font-family: "BebasRegular";
-    font-size: 20px;
-    text-transform: uppercase;
+.navbar-collapse {
+  padding-top: 15px;
+}
 
-    color: $blue-light;
-    border-radius: 2px;
-    &:hover {
-      color: $blue-dark;
+.callback-list {
+  .phone-number {
+    display: block;
+    font-family: 'BebasRegular';
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .phone-life {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: -33px;
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/icons/life.png);
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
+
+  .phone-kiyvstar {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: -33px;
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/icons/kiyvstar.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .phone-vodafone {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: -33px;
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/icons/vodafone.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
 }
 
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.active > a:focus {
-  background-color: $blue-light;
-  color: $white;
-}
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
-  color: $blue-light;
-  border: none;
+.navbar-toggle {
+  padding-top: 20px;
 }

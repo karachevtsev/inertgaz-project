@@ -1,8 +1,87 @@
 .gallery {
-
   margin-top: 50px;
+}
 
-  &__item {
-    margin-bottom: 20px;
-  }
+
+.screenshot {
+  padding: 120px 0;
+}
+.owl-theme .owl-controls {
+  top: 40%;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  border-radius: 0;
+  margin: 0;
+  height: 90px;
+  position: absolute;
+  width: 45px;
+  text-indent: -99999px;
+  display: none;
+}
+.owl-carousel:hover .owl-buttons div {
+  display: block;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+  top: -18px;
+  left: 0px;
+  background: #fff url(../img/left-arrow.png) no-repeat 0px 5px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev:hover {
+  background: rgba(255, 255, 255, 0.4) url(../img/left-arrow-hover.png) no-repeat 0px 5px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+  top: -18px;
+  right: 0px;
+  background: #fff url(../img/right-arrow.png) no-repeat 0px 5px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next:hover {
+  background: rgba(255, 255, 255, 0.4) url(../img/right-arrow-hover.png) no-repeat 0px 5px;
+}
+.screenshot-block {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+}
+.screenshot-block .caption {
+  background: rgba(0, 167, 221, 0.40);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 53% 0%;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -o-transition: .4s;
+  -ms-transition: .4s;
+  -webkit-transform: rotate(-360deg) scale(0,0);
+  -moz-transform: rotate(-360deg) scale(0,0);
+  -ms-transform: rotate(-360deg) scale(0,0);
+  -o-transform: rotate(-360deg) scale(0,0);
+  transform: rotate(-360deg) scale(0,0);
+}
+.screenshot-block:hover .caption {
+  -webkit-transform: rotate(0deg) scale(1.2,1.2);
+  -moz-transform: rotate(0deg) scale(1.2,1.2);
+  -ms-transform: rotate(0deg) scale(1.2,1.2);
+  -o-transform: rotate(0deg) scale(1.2,1.2);
+  transform: rotate(0deg) scale(1.2,1.2);
+}
+.screenshot-block .caption a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.screenshot-block .caption .fa {
+  font-size: 30px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 15px rgba(0, 167, 221, 0.8);
+  -webkit-box-shadow: 0px 0px 0px 15px rgba(0, 167, 221, 0.8);
+  -moz-box-shadow: 0px 0px 0px 15px rgba(0, 167, 221, 0.8);
+  font-size: 56px;
+  height: 70px;
+  line-height: 76px;
+  width: 70px;
 }

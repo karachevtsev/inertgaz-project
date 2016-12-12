@@ -1,33 +1,102 @@
-html, body{
-  height: 100%;
-}
-
+html,
 body {
   font-family: 'RobotoRegular', sans-serif;
   font-size: 16px;
+  color: #798289;
   line-height: 1.6;
-  letter-spacing: .01em;
-  overflow-x: hidden;
-  word-wrap: break-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
-  color: $color-main;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "BebasRegular";
+a {
+  color: #00a7dd;
+  &:hover {
+  color: #017298;
+  }
+}
+
+ul, li {
+  list-style: none;
+  margin:0 0 10px;
+  padding: 0;
+  color: #404041;
+}
+
+p {
+  color: #404041;
+}
+
+.sub-head {
+  font-family: 'BebasRegular';
+  letter-spacing: 0.01em;
+  display: block;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: #404041;
   text-transform: uppercase;
+}
 
-  color: $blue-soft;
+.title {
+  margin-bottom: 25px;
+  text-align: center;
 
+  h2 {
+    display: inline-block;
+    position: relative;
+    color: #00A7DD;
+    font-weight: normal;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0 30px 10px;
+    color: #0aabe1;
+    &:hover:after {
+      left: 0;
+      margin-left: 0px;
+      width: 100%;
+      transition: all 0.3s ease 0s;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+    }
+    &:after {
+      background: none repeat scroll 0 0 #0aabe1;
+      bottom: -1px;
+      content: "";
+      height: 1px;
+      left: 50%;
+      margin-left: -25px;
+      position: absolute;
+      transition: all 0.3s ease 0s;
+      width: 50px;
+    }
+  }
+}
+
+.trans-bg {
+  position: relative;
+  background: rgba(0, 0, 0, 0.70);
+  padding: 120px 0;
+}
+
+.footer-trans-bg {
+  position: relative;
+  background: rgba(0, 0, 0, 0.70);
+  padding: 120px 0;
+  height: 400px;
+}
+
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'BebasRegular', sans-serif;
   margin: 10px 0;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -47,36 +116,4 @@ h5 {
 }
 h6 {
   font-size: 12px;
-}
-
-h1,
-h2,
-h3,
-p,
-img {
-  margin: 0;
-}
-
-a:focus,
-button:focus {
-  outline: none !important;
-}
-
-a {
-  color: $blue-light;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover,
-a:focus {
-    color: $blue-dark;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-ul, li {
-  list-style: none;
-  margin: 0 0 10px;
-  padding: 0;
 }

@@ -1,75 +1,64 @@
-/*==========  Desktop First Method  ==========*/
+@media screen and (min-width: 1200px) {
+  header .app li {
+    margin-left: 20px;
+  }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+  header .nav > li > a {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 1200px) {
 
 }
+@media screen and (max-width: 992px) {
+   .contact .nav-tabs li {
+      margin:0 5% 25px;
+   }
+   header .nav > li > a {
+     font-size: 14px;
+     padding: 5px 8px;
+   }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+   .lg-logo {
+    background-size: 55%;
+  }
 
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
-    // Turn OFF Animate.css on Mobile Devices
-    // .animated {
-    //     /*CSS transitions*/
-    //     -o-transition-property: none !important;
-    //     -moz-transition-property: none !important;
-    //     -ms-transition-property: none !important;
-    //     -webkit-transition-property: none !important;
-    //     transition-property: none !important;
-    //     /*CSS transforms*/
-    //     -o-transform: none !important;
-    //     -moz-transform: none !important;
-    //     -ms-transform: none !important;
-    //     -webkit-transform: none !important;
-    //     transform: none !important;
-    //     /*CSS animations*/
-    //     -webkit-animation: none !important;
-    //     -moz-animation: none !important;
-    //     -o-animation: none !important;
-    //     -ms-animation: none !important;
-    //     animation: none !important;
-    // }
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-  .phone {
-    font-size: 30px;
-
-    &-white {
-      color: $white;
+  .description-list {
+    text-align: center;
+    padding-top: 0;
+    li {
+      font-size: 16px;
+      margin-bottom: 8px;
     }
+  }
 
-    &-earphone {
-      margin-right: 5px;
 
-      font-size: 30px;
-    }
+}
+@media screen and (max-width: 768px) {
+  .nav-brand {
+    display: inline-block;
+  }
+  header .navbar-default .navbar-collapse {
+    text-align: center;
+    padding-top: 22px;
+    border: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 18px;
   }
 
   .banner-title {
-    margin-bottom: 10px;
-
-    font-size: 70px;
-  }
-
-  .banner-text {
-    margin-bottom: 25px;
-
-    font-size: 30px;
-  }
-
-  .review .carousel-inner .item {
-    padding: 0 50px;
-  }
-
-  .review .carousel-control .fa {
-    font-size: 70px;
+    font-size: 32px;
   }
 
   .reviewer-name {
@@ -79,9 +68,195 @@
     font-size: 14px;
   }
 
+  .screenshot-block .caption .fa {
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(0, 167, 221, 0.8);
+    font-size: 30px;
+    height: 60px;
+    line-height: 66px;
+    width: 60px;
+  }
+
+  .contact .nav-tabs li .fa {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  section.contact > .container {
+    margin-top: -150px;
+  }
+
+  .social-icon {
+     margin-bottom: 40px;
+  }
+
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media screen and (max-width: 480px) {
+  .description-list li {
+    font-size: 14px;
+  }
 
+  .product,
+  .services,
+  .company {
+    padding: 60px 0;
+  }
+
+  .review .trans-bg {
+    padding-top: 60px;
+  }
+
+  ul, li, p {
+    font-size: 14px;
+  }
+
+  .about-detail p {
+    font-size: 14px;
+  }
+
+  .lg-logo  {
+    min-height: 250px;
+    background-size: 100%;
+  }
+
+  .product-list {
+    font-size: 9px;
+    margin-bottom: 20px;
+  }
+
+  .more-block {
+     .btn-more {
+      margin-bottom: 10px;
+      margin: 10px auto;
+    }
+  }
+
+  .counter p {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  header {
+    height: auto;
+    padding: 0;
+  }
+  header h1{
+   margin: 10px 0;
+  }
+
+  header .nav-brand img {
+    width: 85px;
+  }
+
+  .banner-title {
+    font-size: 24px;
+  }
+  .banner p {
+    font-size: 14px;
+  }
+
+  section.banner {
+      padding: 0;
+  }
+
+   .title h2, h2 {
+    font-size: 34px;
+    padding: 0 0px 10px;
+   }
+
+   .review .carousel-inner .item {
+      padding: 0 50px;
+    }
+   .review .carousel-control .fa {
+      font-size: 70px;
+    }
+    .support-block {
+      margin-bottom: 70px;
+    }
+   .social-icon .fa {
+    font-size: 18px;
+    color: #0aabe1;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 2;
+    border: 5px solid rgba(107, 197, 225, 0.48);
+  }
+  .social-icon a:active .fa,
+  .social-icon a.active .fa,
+  .social-icon a:hover .fa {
+    border: 5px solid #fff;
+    line-height: 2;
+  }
+  .contact .nav-tabs li .fa {
+    background: #0aabe1;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgb(255, 255, 255);
+    color: #fff;
+    line-height: 2;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  .contact .nav-tabs li .fa:hover,
+  .contact .nav-tabs > li.active > a .fa,
+  .contact .nav-tabs > li.active > a:hover .fa,
+  .contact .nav-tabs > li.active > a:focus .fa {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.75);
+    color: #0aabe1;
+  }
+  .contact .contact-info h2 {
+    margin-bottom: 20px;
+  }
+  .contact .nav-tabs li {
+    margin: 0 4% 10px;
+  }
+
+  .owl-theme .owl-controls {
+    top: 40%;
+  }
+  .social-icon {
+    margin-bottom: 20px;
+  }
+  .copyright p {
+    margin: 20px 0;
+  }
+  .social-icon a {
+    margin: 0 8px 10px 8px;
+  }
 }
+
+@media screen and (max-width: 320px) {
+
+   .contact .nav-tabs li .fa {
+      width: 35px;
+      height: 35px;
+      font-size: 16px;
+      -webkit-box-shadow: 0px 0px 0px 10px rgb(255, 255, 255);
+         -moz-box-shadow: 0px 0px 0px 10px rgb(255, 255, 255);
+              box-shadow: 0px 46
+              0px 0px 10px rgb(255, 255, 255);
+   }
+   .contact .nav-tabs li .fa:hover,
+   .contact .nav-tabs > li.active > a .fa,
+   .contact .nav-tabs > li.active > a:hover .fa,
+   .contact .nav-tabs > li.active > a:focus .fa {
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(255, 255, 255,0.75);
+       -moz-box-shadow: 0px 0px 0px 10px rgba(255, 255, 255,0.75);
+            box-shadow: 0px 0px 0px 10px rgba(255, 255, 255,0.75);
+   }
+   .contact .nav-tabs li {
+    margin: 0 2%;
+   }
+}
+
+
+
