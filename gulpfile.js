@@ -21,6 +21,7 @@ var uglify = require("gulp-uglify");
 var sourcemaps = require("gulp-sourcemaps");
 var pump = require("pump");
 var mainBowerFiles = require('main-bower-files');
+var rigger = require('gulp-rigger');
 
 
 gulp.task("style", function() {
@@ -53,8 +54,10 @@ gulp.task("html", function () {
 });
 
 gulp.task('jscompress', function () {
-  gulp.src("src/js/*.js")
+  gulp.src("src/js/app.js")
+    .pipe(rigger())
     .pipe(plumber())
+
     .pipe(sourcemaps.init())
       .pipe(uglify())
       .pipe(rename("app.min.js"))
