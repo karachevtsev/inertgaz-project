@@ -1,8 +1,24 @@
 #footer {
+  position: relative;
   background: url(../img/bg-footer.jpg) no-repeat fixed;
   background-size: cover;
-  height: 400px;
+  height: 200px;
+  z-index: 0;
+  &:before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
   p {
+    margin: 0;
+    padding-top: 80px;
+    position: relative;
+    z-index: 3;
     color: #fff
   }
 }
@@ -60,6 +76,8 @@
 }
 
 #go-to-top a {
+  position: relative;
+  z-index: 5;
   text-decoration:none;
   display: none;
   position: fixed;
