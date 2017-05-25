@@ -6,7 +6,6 @@
 //= partials/jquery.nav.js
 //= partials/owl.carousel.js
 //= partials/jquery.magnific.popup.js
-//= partials/wow.js
 //= partials/easing.js
 //= partials/jquery.animateNumber.min.js
 //= partials/waypoints.min.js

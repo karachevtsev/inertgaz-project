@@ -1,5 +1,7 @@
 .contact {
   padding-top: 120px;
+  background: url(../img/bg_3.png) no-repeat fixed;
+  background-size: cover;
   .title {
     padding-top: 30px;
   }
@@ -27,14 +29,14 @@ section.contact > .container {
   position: initial;
 }
 
-.contact .nav-tabs > li > a:hover {
-  border-color: transparent transparent transparent;
-}
+// .contact .nav-tabs > li > a:hover {
+//   border-color: transparent transparent transparent;
+// }
 
-.contact .nav > li > a:hover, .contact .nav > li > a:focus {
-  text-decoration: none;
-  background-color: transparent;
-}
+// .contact .nav > li > a:hover, .contact .nav > li > a:focus {
+//   text-decoration: none;
+//   background-color: transparent;
+// }
 
 .contact .nav-tabs li .fa {
   background: #0aabe1;
@@ -45,28 +47,28 @@ section.contact > .container {
   height: 100px;
   line-height: 2;
   width: 100px;
-          box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
-  -webkit-box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
-     -moz-box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
+  //         box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
+  // -webkit-box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
+  //    -moz-box-shadow: 0px 0px 0px 20px rgb(255, 255, 255);
 }
 
-.contact .nav-tabs > li.active > a,
-.contact .nav-tabs > li.active > a:hover,
-.contact .nav-tabs > li.active > a:focus {
-  border: 1px solid transparent;
-}
+// .contact .nav-tabs > li.active > a,
+// .contact .nav-tabs > li.active > a:hover,
+// .contact .nav-tabs > li.active > a:focus {
+//   border: 1px solid transparent;
+// }
 
-.contact .nav-tabs li .fa:hover,
-.contact .nav-tabs > li.active > a .fa,
-.contact .nav-tabs > li.active > a:hover .fa,
-.contact .nav-tabs > li.active > a:focus .fa {
-  background: #fff;
-  color: #0aabe1;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
-     -moz-box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
-          box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
-}
+// .contact .nav-tabs li .fa:hover,
+// .contact .nav-tabs > li.active > a .fa,
+// .contact .nav-tabs > li.active > a:hover .fa,
+// .contact .nav-tabs > li.active > a:focus .fa {
+//   background: #fff;
+//   color: #0aabe1;
+//   border-radius: 50%;
+//   -webkit-box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
+//      -moz-box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
+//           box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
+// }
 
 .contact-success {
   background: transparent;
@@ -170,9 +172,13 @@ section.contact > .container {
 }
 .contact .btn {
   padding: 19px 10px;
+  background: #0aabe1;
+  font-weight: normal;
+  color: #fff;
 }
 .contact .btn:hover {
-  background: #0aabe1;
+  background: #44C6F2;
+  border: 1px solid #44C6F2;
 }
 
 

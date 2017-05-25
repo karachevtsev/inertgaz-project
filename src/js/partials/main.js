@@ -63,15 +63,6 @@ $(document).ready(function() {
     pause: "null"
   })
 
-  var wow = new WOW(
-    {
-      offset: 50,
-      mobile: false,
-      live: true
-    }
-  );
-  wow.init();
-
   $('.counter').waypoint(function() {
     var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
     $('.total-number-1').animateNumber({
@@ -80,7 +71,7 @@ $(document).ready(function() {
     }, 2000);
 
     $('.total-number-2').animateNumber({
-        number: 10000,
+        number: 13275,
         numberStep: comma_separator_number_step
     }, 2000);
     $('.total-number-3').animateNumber({
