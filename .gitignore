@@ -14,3 +14,4 @@ ex_files
 *.ai
 *.pdf
 TODO.md
+package-lock.json

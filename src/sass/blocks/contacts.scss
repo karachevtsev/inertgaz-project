@@ -162,6 +162,10 @@ section.contact > .container {
   border-radius: 0;
   height: 60px;
   box-shadow: 0 0px 0px transparent;
+
+  &.error {
+    border-color: #ff0000;
+  }
 }
 .contact .form-control:focus {
   box-shadow: 0px 0px 0px 0px;
@@ -179,6 +183,12 @@ section.contact > .container {
 .contact .btn:hover {
   background: #44C6F2;
   border: 1px solid #44C6F2;
+}
+
+label.error {
+  font-size: 12px;
+  font-weight: normal;
+  color: #ff0000;
 }
 
 
